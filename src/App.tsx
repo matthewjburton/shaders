@@ -2,23 +2,19 @@ import { useState } from "react";
 import ShaderCanvas from "./components/ShaderCanvas";
 
 import aurora from "./shaders/aurora.frag?raw";
-import checkerboard from "./shaders/checkerboard.frag?raw";
-import circleGrid from "./shaders/circleGrid.frag?raw";
-import motionBlur from "./shaders/motionBlur.frag?raw";
-import noise from "./shaders/noise.frag?raw";
-import orbitals from "./shaders/orbitals.frag?raw";
-import rings from "./shaders/rings.frag?raw";
-import water from "./shaders/water.frag?raw";
+import blackhole from "./shaders/blackhole.frag?raw";
+import crumpledWave from "./shaders/crumpledWave.frag?raw";
+import halo from "./shaders/halo.frag?raw";
+import star from "./shaders/star.frag?raw";
+import warp from "./shaders/warp.frag?raw";
 
 const shaders = {
   Aurora: aurora,
-  "Checker Board": checkerboard,
-  "Circle Grid": circleGrid,
-  "Motion Blur": motionBlur,
-  Noise: noise,
-  Orbitals: orbitals,
-  Rings: rings,
-  Water: water,
+  Blackhole: blackhole,
+  "Crumpled Wave": crumpledWave,
+  Halo: halo,
+  Star: star,
+  Warp: warp,
 };
 
 function App() {
